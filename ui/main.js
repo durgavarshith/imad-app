@@ -33,7 +33,7 @@ submit.onclick=function(){
     
     //capture a list of names and render it as a list
     request.onrreadystatechange=function(){
-         if(request.readyState===XMLHttpRequest.DONE){
+         if(request.readystate===XMLHttpRequest.DONE){
             //take some action
             if(request.status===200){
                  //capture a list of names and render it as a list

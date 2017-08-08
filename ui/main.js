@@ -25,13 +25,15 @@ button.onclick=function(){
 };
 
 //submit name
+var nameInput=document.getElementById('name');
+var name=nameInput.value;
 var submit=document.getElementById('submit_btn');
 submit.onclick=function(){
     
-    //make a request to server and send the name 
+    //create a request object
     var request=new XMLHttpRequest();
     
-    //capture a list of names and render it as a list
+    //capture the response and store it in a variable
     request.onrreadystatechange=function(){
          if(request.readystate===XMLHttpRequest.DONE){
             //take some action

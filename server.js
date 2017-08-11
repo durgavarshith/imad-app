@@ -14,41 +14,6 @@ var config={
 var app = express();
 app.use(morgan('combined'));
 
-
-var articles={
-'article-one':{
-  title:'Article One | durga varshith',
-  heading:'Article one',
-  date:'aug 6,2017',
-  content:`<p>
-                This is the content of my first article.this is the content of my first article.this is the content of my first article.this is the content of my first article.this is the content of my first article.
-            </p>
-            <p>
-                    This is the content of my first article.this is the content of my first article.this is the content of my first article.this is the content of my first article.this is the content of my first article.
-            </p>
-            <p>
-                    This is the content of my first article.this is the content of my first article.this is the content of my first article.this is the content of my first article.this is the content of my first article.
-            </p>`
-},
-'article-two':{
-  title:'Article two|durga varshith',
-  heading:'Article two',
-  date:'aug 6,2017',
-  content:`<p>
-                this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.
-            </p>
-            <p>
-                    this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.
-            </p>`},
-'article-three':{
-  title:'Article three|durga varshith',
-  heading:'Article three',
-  date:'aug 6,2017',
-  content:` <p>
-                this is the content of my third article.this is the content of my third article.this is the content of my third article.this is the content of my third article.this is the content of my third article.this is the content of my third article.
-            </p>`}
-};
-
 function createTemplate (data){
     var title=data.title;
     var date=data.date;

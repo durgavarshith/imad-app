@@ -32,7 +32,7 @@ var articles={
 },
 'article-two':{
   title:'Article two|durga varshith',
-  heading:'Article Two',
+  heading:'Article two',
   date:'aug 6,2017',
   content:`<p>
                 this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.this is the content of my second article.

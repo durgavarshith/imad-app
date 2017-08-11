@@ -42,7 +42,7 @@ var articles={
             </p>`},
 'article-three':{
   title:'Article three|durga varshith',
-  heading:'Article Three',
+  heading:'Article three',
   date:'aug 6,2017',
   content:` <p>
                 this is the content of my third article.this is the content of my third article.this is the content of my third article.this is the content of my third article.this is the content of my third article.this is the content of my third article.

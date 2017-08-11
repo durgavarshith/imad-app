@@ -15,7 +15,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articles={
+var article={
 'article-one':{
   title:'Article one|durga varshith',
   heading:'Article one',
